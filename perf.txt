@@ -1,0 +1,41 @@
+Latest tag is  v2.0.0
+Comparing v2.0.0 with current on Node v0.12.15
+--------------------------------------
+eachLimit(10) v2.0.0 x 33,066 ops/sec ±5.02% (26 runs sampled), 0.0302ms per run
+eachLimit(10) current x 36,645 ops/sec ±3.63% (29 runs sampled), 0.0273ms per run
+current is faster
+--------------------------------------
+eachLimit(300) v2.0.0 x 2,512 ops/sec ±11.45% (23 runs sampled), 0.398ms per run
+eachLimit(300) current x 2,965 ops/sec ±6.71% (28 runs sampled), 0.337ms per run
+current is faster
+--------------------------------------
+eachLimit(10000) v2.0.0 x 95.09 ops/sec ±6.11% (28 runs sampled), 10.5ms per run
+eachLimit(10000) current x 96.67 ops/sec ±3.58% (29 runs sampled), 10.3ms per run
+Tie
+--------------------------------------
+mapLimit(10) v2.0.0 x 29,868 ops/sec ±7.40% (26 runs sampled), 0.0335ms per run
+mapLimit(10) current x 30,526 ops/sec ±8.07% (27 runs sampled), 0.0328ms per run
+Tie
+--------------------------------------
+mapLimit(300) v2.0.0 x 2,649 ops/sec ±4.06% (29 runs sampled), 0.377ms per run
+mapLimit(300) current x 2,475 ops/sec ±9.80% (27 runs sampled), 0.404ms per run
+Tie
+--------------------------------------
+mapLimit(10000) v2.0.0 x 81.71 ops/sec ±6.62% (29 runs sampled), 12.2ms per run
+mapLimit(10000) current x 84.87 ops/sec ±6.05% (29 runs sampled), 11.8ms per run
+Tie
+--------------------------------------
+eachOfLimit(10) v2.0.0 x 33,848 ops/sec ±5.49% (27 runs sampled), 0.0295ms per run
+eachOfLimit(10) current x 32,010 ops/sec ±9.51% (27 runs sampled), 0.0312ms per run
+Tie
+--------------------------------------
+eachOfLimit(300) v2.0.0 x 2,896 ops/sec ±5.16% (29 runs sampled), 0.345ms per run
+eachOfLimit(300) current x 3,014 ops/sec ±5.69% (30 runs sampled), 0.332ms per run
+current is faster
+--------------------------------------
+eachOfLimit(10000) v2.0.0 x 91.44 ops/sec ±7.67% (27 runs sampled), 10.9ms per run
+eachOfLimit(10000) current x 81.95 ops/sec ±9.94% (25 runs sampled), 12.2ms per run
+Tie
+--------------------------------------
+v2.0.0 faster overall (34.9ms total vs. 35.5ms total)
+current won more benchmarks (3 vs. 0)
